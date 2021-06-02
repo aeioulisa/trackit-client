@@ -74,7 +74,7 @@ function getClientEnvironment(publicUrl) {
         // This should only be used as an escape hatch. Normally you would put
         // images into the `src` and `import` them in code to get their paths.
         PUBLIC_URL: publicUrl,
-        API_URL: process.env.API_URL || 'http://localhost:8080',
+        API_URL: process.env.API_URL || 'http://trackit:8080',
         INTERCOM_ID: process.env.INTERCOM_ID || '',
         SENTRY_DSN: process.env.SENTRY_DSN || '',
       }
